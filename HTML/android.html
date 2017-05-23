@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Accueil INFOormatique</title>
+		<meta name="author" content="valentin, mathys, quentin, florentin">
+		<meta content="UTF-8">
+		<meta name="keywords" content="informatique, android, ios, config pc, déboggage, windows, failles, piratage, actu, actualité">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="../icon-du-head.png" />
+		<link rel="stylesheet" href="../CSS/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+		<style>
+		.w3-titre {font-family: 'Shadows Into Light', cursive;}
+		#wrap{min-height:100%;position: relative;}
+		#footer{height: 140px;position: absolute;background-color:#D8D8D8;width:100%;text-align:center;}
+		#crea{text-align:center;font-size:24px;}
+		</style>
+	</head>
+	<body>
+		<div class="w3-row">
+			<div class="w3-center w3-xxlarge w3-titre w3-grey">Info-Ormatique</div>
+		</div>
+		<!--menu-->
+		<div class="w3-bar w3-light-grey w3-border">
+			<div class="w3-row">
+				<a href="../index.html" class="w3-bar-item w3-button w3-mobile w3-border-right w3-red" style="width:10%"> &nbsp; <i class="fa fa-home"></i> &nbsp; </a>
+				<a href="Windows.html" class="w3-bar-item w3-button w3-mobile w3-border-right" style="width:19.5%">Windows</a>
+				<a href="IOSprincipale.html" class="w3-bar-item w3-button w3-mobile w3-border-right" style="width:19.5%">IOS</a>
+				<a href="../erreur404.html" class="w3-bar-item w3-button w3-mobile w3-border-right" style="width:19.5%">Android</a>
+				<a href="ConfigOtopprincipale.html" class="w3-bar-item w3-button w3-mobile w3-border-right" style="width:19.5%">CofigOTop</a>
+				<div class="w3-dropdown-click" style="width:12%">
+					<button class="w3-button" onclick="myFunction()"> Plus <i class="fa fa-caret-down"></i>
+					</button>
+					<div id="demo" class="w3-dropdown-content w3-bar-block w3-card-4">
+						<a href="https://www.twitter.com" class="w3-bar-item w3-button" style="width:100%"><img src="../IMG/logotwitter.png" alt="twitter" style="width:12%"> twitter</a>
+						<a href="https://www.facebook.com" class="w3-bar-item w3-button" style="width:100%"><img src="../IMG/logofacebook.png" alt="facebook" style="width:12%"> facebook</a>
+						<a href="https://www.instagram.com" class="w3-bar-item w3-button" style="width:100%"><img src="../IMG/logoinstagram.png" alt="instagram" style="width:12%"> instagram</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w3-grey"><br>
+		<br></div>
+		<!--barre actu-->
+		<div class="w3-border">
+			<div class="w3-bar w3-white w3-row">
+				<div class="w3-third w3-red w3-center w3-button w3-border">
+					<div class="w3-bar-item" onclick="barreactu('TNews1')">Windows : Windows 10 S un système limité pour des ordinateurs</div>
+				</div><div class="w3-third w3-red w3-center w3-button w3-border">
+					<div class="w3-bar-item" onclick="barreactu('TNews2')">Android : 3,2 millions d’applications malveillantes en 2016</div>
+				</div><div class="w3-third w3-red w3-center w3-button w3-border">
+					<div class="w3-bar-item" onclick="barreactu('TNews3')">IOS : un nouveau bug fait planter les smartphones d'Apple</div>
+				</div>
+			</div>
+			<div id="TNews1" class="w3-container w3-display-container actub w3-red w3-border" style="display:none">
+				<span onclick="this.parentElement.style.display='none'"
+				class="w3-button w3-large w3-display-topright">&times;</span>
+				<h2>Windows : Windows 10 S un système limité pour des ordinateurs</h2>
+				<p>Microsoft tient actuellement une conférence de presse à New York pour présenter de nouveaux produits visant le marché de l’éducation. 
+				Windows 10 S est au centre de cette nouvelle stratégie, pensée pour répondre au succès grandissant de ChromeOS et des Chromebook dans les écoles. 
+				<br><a href="http://www.numerama.com/tech/254316-microsoft-devoile-windows-10-s-un-systeme-limite-pour-des-ordinateurs-a-189.html">voir plus <i class="fa fa-caret-right"></i> </a></p>
+				</div>
+
+			<div id="TNews2" class="w3-container w3-display-container actub w3-red w3-border" style="display:none">
+				<span onclick="this.parentElement.style.display='none'"
+				class="w3-button w3-large w3-display-topright">&times;</span>
+				<h2>Android : 3,2 millions d’applications malveillantes en 2016</h2>
+				<p>Les applications malveillantes sont de plus en plus nombreuses. 
+				Les experts G DATA ont compté 3,2 millions d’applications malveillantes en 2016. 
+				En se basant sur un premier trimestre 2017 qui totalise plus de 750 000 menaces,
+				ils prévoient environ 3,5 millions de nouveaux dangers ciblant Android pour 2017.
+				<br><a href="https://www.zataz.com/32-millions-applications-malveillantes-2016">voir plus <i class="fa fa-caret-right"></i> </a></p>
+			</div>
+
+			<div id="TNews3" class="w3-container w3-display-container actub w3-red w3-border" style="display:none">
+				<span onclick="this.parentElement.style.display='none'"
+				class="w3-button w3-large w3-display-topright">&times;</span>
+				<h2>OS : un bug fait planter les smartphones d'Apple</h2>
+				<p>Un nouveau bug vient d'être découvert sur iPhone par un utilisateur italien,
+				pas de panique toutefois, il y a peu de chance que ce dernier vous concerne,
+				puisqu'il intervient après une manipulation peu courante du terminal.
+				<br><a href="https://www.generation-nt.com/ios-bug-plantage-iphone-actualite-1941894.html">voir plus <i class="fa fa-caret-right"></i> </a></p>
+			</div>
+		</div>
+		
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<!--bas de page-->
+		<div id="wrap">
+
+			<div id="footer" >
+				<a href="http://www.twitter.com/"> <img src="../IMG/logotwitter.png" alt="Lien vers Twitter" style="width:5%"> </a>
+		 
+				<a href="http://www.instagram.com/"> <img src="../IMG/logoinstagram.png" alt="Lien vers Instagram" style="width:5%"> </a>
+		  
+				<a href="http://www.facebook.com/"> <img src="../IMG/logofacebook.png" alt="Lien vers Facebook" style="width:5%"> </a>
+		
+				<p> Mathys Gagner / Valentin Beaudouin / Quentin Mailhebiau / Florentin Foucault / Louis Maillard (bugfix) </p>
+			</div>
+		</div>
+		
+		<!--script barre actu-->
+		<script>
+		function barreactu(actu) {
+			var i;
+			var x = document.getElementsByClassName("actub");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			document.getElementById(actu).style.display = "block";  
+		}
+		</script>
+		<!--script menu deroulant-->
+		<script>
+		function myFunction() {
+			var x = document.getElementById("demo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+		</script>
+	</body>
+</html>
