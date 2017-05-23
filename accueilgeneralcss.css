@@ -1,0 +1,25 @@
+
+
+ 
+#wrap{
+  min-height:100%;
+  position: relative;
+}
+ 
+
+#footer{
+  height: 140px;
+  position: absolute;
+  background-color:#D8D8D8;
+  width:100%;
+  text-align:center;
+}
+
+
+
+
+#crea{
+	text-align:center;
+	font-size:24px;
+	
+}
