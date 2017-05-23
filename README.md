@@ -1,3 +1,3 @@
 # website
 
-### Access to [website](http://config-o-matique.github.io/website/accueil.html)
+### Access to [website](https://info-ormatique.github.io/website/accueil.html)
