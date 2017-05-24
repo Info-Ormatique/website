@@ -1,6 +1,8 @@
 # website
 
-### Access to [website](https://info-ormatique.github.io/website/accueil.html)
+### Access to [website](https://info-ormatique.github.io/website/index.html)
+
+<!-- NE JAMAIS MODIFIER CE FICHIER, CORDIALEMENT @loulou123546 -->
 
 N° de phone : 
 
