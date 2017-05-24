@@ -82,7 +82,43 @@
 			</div>
 		</div>
 		
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br>
+		
+		<div class="w3-container">
+  <h2>Filter Table</h2>
+  <p>Search for a name in the input field.</p>
+
+  <input class="w3-input w3-border w3-padding" type="text" placeholder="Search..." id="myInput" onkeyup="myFunction(1)">
+
+  <table class="w3-table-all w3-margin-top" id="myTable">
+    <tr>
+      <th style="width:60%;">Produit</th>
+      <th style="width:40%;">Lien</th>
+    </tr>
+    <tr>
+      <td>Téléphones</td>
+      <td><a href="https://www.android.com/intl/fr_fr/phones/"> <i class="fa fa-caret-right"></i> </a></td>
+    </tr>
+    <tr>
+      <td>Wear</td>
+      <td><a href="https://www.android.com/intl/fr_fr/wear/"> <i class="fa fa-caret-right"></i> </a></td>
+    </tr>
+    <tr>
+      <td>Tablettes</td>
+      <td><a href="https://www.android.com/intl/fr_fr/tablets/"> <i class="fa fa-caret-right"></i> </a></td>
+    </tr>
+    <tr>
+      <td>Tv</td>
+      <td><a href="https://www.android.com/intl/fr_fr/tv/"> <i class="fa fa-caret-right"></i> </a></td>
+    </tr>
+    <tr>
+      <td>Auto</td>
+      <td><a href="https://www.android.com/intl/fr_fr/auto/"> <i class="fa fa-caret-right"></i> </a></td>
+    </tr>
+  </table>
+</div>
+		
+		<br><br>
 		
 		<!--bas de page-->
 		<div id="wrap">
@@ -118,6 +154,26 @@
 			} else { 
 				x.className = x.className.replace(" w3-show", "");
 			}
+		}
+		</script>
+		<!--scripte barre de recherche-->
+		<script>
+		function myFunction(1) {
+		  var input, filter, table, tr, td, i;
+		  input = document.getElementById("myInput");
+		  filter = input.value.toUpperCase();
+		  table = document.getElementById("myTable");
+		  tr = table.getElementsByTagName("tr");
+		  for (i = 0; i < tr.length; i++) {
+		    td = tr[i].getElementsByTagName("td")[0];
+		    if (td) {
+		      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			tr[i].style.display = "";
+		      } else {
+			tr[i].style.display = "none";
+		      }
+		    }
+		  }
 		}
 		</script>
 	</body>
