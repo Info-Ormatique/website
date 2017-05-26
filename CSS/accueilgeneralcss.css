@@ -1,5 +1,6 @@
 html{height:100%;}
 body{height:100%;position: relative;}
-#wrap{position: absolute;width:100%;bottom:140px;}
-#footer{height: 140px;position: absolute;background-color:#D8D8D8;width:100%;text-align:center;}
+#content{min-height: calc( 100vh - 140px );width:100%;}
+/*#wrap{position: absolute;width:100%;bottom:140px;}       INUTILE ?     */
+#footer{height: 140px;background-color:#D8D8D8;width:100%;text-align:center;}
 #crea{text-align:center;font-size:24px;}
