@@ -1,10 +1,10 @@
-# website
-
 ### Access to [website](https://info-ormatique.github.io/website/index.html)
 
 <!-- NE JAMAIS MODIFIER CE FICHIER, CORDIALEMENT @loulou123546 -->
 
-## Nouveauté : cliquer sur votre nom pour voir les tâches qui vous sont assigné
+---
+
+### Nouveauté : cliquer sur votre nom pour voir les tâches qui vous sont assigné
 
 N° de phone : 
 
@@ -13,3 +13,12 @@ N° de phone :
 - mathys : `0624393115` / [@mathyyg](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Amathyyg)
 - quentin : `0672764283` / [@mamiegato](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Amamiegato)
 - louis : `0602361277` / [@loulou123546](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Aloulou123546)
+
+---
+
+### quelques icones utile :
+
+- :+1: = `:+1:`
+- :-1: = `:-1:`
+- :heavy_check_mark: = `:heavy_check_mark:`
+- :smiley: = `:smiley:`
