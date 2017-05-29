@@ -42,8 +42,41 @@
 			    <br><br>
 		    </div>
 	    	<div>
-			<br><br>
-			<h2>Bienvenue dans <i><font color="purple">Windows-help</font></i></h2>
+		<!--barre actu-->
+		<div class="w3-border">
+			<div class="w3-bar w3-white w3-row">
+				<div class="w3-third w3-red w3-center w3-button w3-border">
+					<div class="w3-bar-item" onclick="barreactu('TNews1')">CMD : Découvrez notre nouveau tutoriel pour apprendre à l'utiliser</div>
+				</div><div class="w3-third w3-red w3-center w3-button w3-border">
+					<div class="w3-bar-item" onclick="barreactu('TNews2')">News 1</div>
+				</div><div class="w3-third w3-red w3-center w3-button w3-border">
+					<div class="w3-bar-item" onclick="barreactu('TNews3')">News 2</div>
+				</div>
+			</div>
+			<div id="TNews1" class="w3-container w3-display-container actub w3-red w3-border" style="display:none">
+				<span onclick="this.parentElement.style.display='none'"
+				class="w3-button w3-large w3-display-topright">&times;</span>
+				<h2>CMD : Découvrez notre nouveau tutoriel pour apprendre à l'utiliser</h2>
+				<p>Découvrez notre tout nouveau tutoriel sur l'utilisation du terminal de commande, le CMD !
+				<br><a href="cmd.html">En savoir plus <i class="fa fa-caret-right"></i> </a></p>
+				</div>
+
+			<div id="TNews2" class="w3-container w3-display-container actub w3-red w3-border" style="display:none">
+				<span onclick="this.parentElement.style.display='none'"
+				class="w3-button w3-large w3-display-topright">&times;</span>
+				<h2>News 1 : .......</h2>
+				<p>DESCRIPTION
+				<br><a href="https://www.google.com">voir plus <i class="fa fa-caret-right"></i> </a></p>
+			</div>
+
+			<div id="TNews3" class="w3-container w3-display-container actub w3-red w3-border" style="display:none">
+				<span onclick="this.parentElement.style.display='none'"
+				class="w3-button w3-large w3-display-topright">&times;</span>
+				<h2>News 2 : ......</h2>
+				<p>DESCRIPTION
+				<br><a href="https://www.google.com">voir plus <i class="fa fa-caret-right"></i> </a></p>
+			</div>
+		</div>
 		</div>
 	    </div>
 				 
@@ -63,6 +96,15 @@
 		
 				<!--script menu deroulant-->
 		<script>
+		function barreactu(actu) {
+			var i;
+			var x = document.getElementsByClassName("actub");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			document.getElementById(actu).style.display = "block";  
+		}	
+			
 		function myFunction() {
 			var x = document.getElementById("demo");
 			if (x.className.indexOf("w3-show") == -1) {
