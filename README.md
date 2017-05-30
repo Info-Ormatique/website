@@ -12,7 +12,7 @@ N° de phone :
 - valentin : `0603126900` / [@valou-21](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Avalou-21)
 - mathys : `0624393115` / [@mathyyg](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Amathyyg)
 - quentin : `0672764283` / [@mamiegato](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Amamiegato)
-- louis : `0602361277` / [@loulou123546](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Aloulou123546)
+<!--  - louis : `0602361277` / [@loulou123546](https://github.com/Info-Ormatique/website/issues?utf8=%E2%9C%93&q=is%3Aopen%20assignee%3Aloulou123546)  -->
 
 ---
 
